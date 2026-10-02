@@ -70,20 +70,19 @@ Arch: x86_64
 Hello, GitHub!
 Sum 1..10 = 55
 ```
-![загруска](2026-10-01_10-38-38.png)
+![загрузка](/images/777.jpg)
 
 ### Вариант 2: Скачивание готового бинарника
-Не требует установки Python или Docker. Просто скачайте файл из раздела [Releases](https://github.com/kotokhin98-netizen/hello-python/releases).
+Не требует установки Python или Docker. Просто скачайте файл из раздела 
 
 **Windows (PowerShell):**
 ```powershell
-Invoke-WebRequest -Uri "https://github.com/kotokhin98-netizen/hello-python/releases/download/v0.1.0/hello-python-windows-x64.exe" -OutFile "hello-python.exe"
+Invoke-WebRequest 
 .\hello-python.exe
 ```
 
 **Linux / macOS:**
 ```bash
-curl -LO https://github.com/kotokhin98-netizen/hello-python/releases/download/v0.1.0/hello-python-linux-x64
 chmod +x hello-python-linux-x64
 ./hello-python-linux-x64
 ```
@@ -109,10 +108,7 @@ chmod +x hello-python-linux-x64
 
 Бинарники автоматически публикуются в **GitHub Releases** при push тега `v*`.
 
-**URL релиза:**
-```
-https://github.com/kotokhin98-netizen/hello-python/releases
-```
+
 
 **Доступные платформы:**
 - `hello-python-linux-x64` (~19 MB)
@@ -140,14 +136,13 @@ https://github.com/kotokhin98-netizen/hello-python/releases
 - **Размер бинарника** — ~8-19 MB (включает Python Runtime)
 - **Версия в двух местах** — `pyproject.toml` и `__init__.py` должны совпадать
 
-![загруска на репозиторий](2026-10-01_10-43-08.png)
+![загрузка на репозиторий](/images/555.jpg)
 
-![проверка action](2026-10-01_10-42-53.png)
-![создание тега](2026-10-01_10-43-35.png)
-![проверка тега](2026-10-01_10-44-57.png)
-![проверка Releases](2026-10-01_10-46-33.png)
-![проверка бинарника](2026-10-01_10-47-54.png)
+![проверка action](/images/666.jpg)
+![создание тега](/images/333.jpg)
+![проверка тега](/images/111.jpg)
+![проверка Releases](/images/333.jpg)
+![проверка бинарника](/images/444.jpg)
 ---
 
-Создано [kotokhin98-netizen](https://github.com/kotokhin98-netizen)
 ```
